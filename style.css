@@ -66,3 +66,10 @@
   margin-bottom: 12px;
   width: 100%;
 }
+
+.footer {
+    margin-top: 30px;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+}
