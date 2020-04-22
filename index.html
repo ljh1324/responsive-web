@@ -11,18 +11,18 @@
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">-->
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ljh1324/custom-bootstrap/bootstrap.min.css">
-
   <link rel="stylesheet" href="./style.css">
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
-  <script type="text/javascript" src="./main.js"></script>
 </head>
 
 <body>
   <nav class="navbar bg-dark navbar-dark">
-    <a class="navbar-brand" href="#">MyGumi</a>
+    <a class="navbar-brand" href="#">
+      <h2>MyGumi</h2>
+    </a>
     <div class="d-none d-lg-block ml-auto">
       <button type="button" class="btn btn-light">회원가입</button>
       <button type="button" class="btn btn-light">로그인</button>
@@ -63,11 +63,7 @@
   </nav>
 
   <div class="container-fluid">
-    <div class="row photoes">
-      <div class="col-lg-3 col-sm-6 col-12"><img src="./imgs/동락공원.jpg" alt=""></div>
-      <div class="col-lg-3 col-sm-6 col-12"><img src="./imgs/금오산.jpg" alt=""></div>
-      <div class="col-lg-3 col-sm-6 col-12"><img src="./imgs/낙동강.jpg" alt=""></div>
-      <div class="col-lg-3 col-sm-6 col-12"><img src="./imgs/금오공대.jpg" alt=""></div>
+    <div id="photoes" class="row photoes">
     </div>
   </div>
 
@@ -77,6 +73,9 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
+
+  <script type="text/javascript" src="./variables.js"></script>
+  <script type="text/javascript" src="./data.js"></script>
 </body>
 
 </html>
