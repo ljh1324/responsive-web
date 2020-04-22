@@ -59,6 +59,7 @@
   color: white;
   margin-left: auto;
   font-size: 2rem;
+  user-select: none;
 }
 
 .photoes img {
